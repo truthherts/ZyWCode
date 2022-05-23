@@ -13,6 +13,7 @@
         /// </returns>
         public static KeyValuePair<bool, string> ExamineClassifiedString(string? emailText, string? noNoWords)
         {
+            //Test
             KeyValuePair<bool, string> result = new KeyValuePair<bool, string>(false, emailText);
             List<string> noNoWordsList = new List<string>();
 
